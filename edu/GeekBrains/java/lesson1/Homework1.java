@@ -5,6 +5,7 @@ import java.util.ArrayList;
 /**
  * @autor Kunakbaev Artem
  */
+
 public class Homework1 {
     public static void main(String[] args) {
         Box<Apple> appleBox6 = new Box<Apple>();
