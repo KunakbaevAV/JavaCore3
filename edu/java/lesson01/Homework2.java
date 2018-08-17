@@ -6,6 +6,7 @@ import java.util.Collections;
 /**
  * @autor Kunakbaev Artem
  */
+
 public class Homework2 {
     public static void main(String[] args) {
 
