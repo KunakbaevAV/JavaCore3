@@ -19,19 +19,19 @@ public class MyFileReader {
             e.printStackTrace();
         }
 
-        try {
-            assert stream != null;
-            bytes = stream.readAllBytes();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }finally {
-            try {
-                assert stream != null;
-                stream.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
+//        try {
+//            assert stream != null;
+//            bytes = stream.readAllBytes();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }finally {
+//            try {
+//                assert stream != null;
+//                stream.close();
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//        }
     }
 
     void showBytes(){
